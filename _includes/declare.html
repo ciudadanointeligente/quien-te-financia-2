@@ -30,6 +30,40 @@
 </div>
 {% endif %}
 
+<!--responde sin responder-->
+
+{% if page.responde_financiamiento == 'm' %}
+
+ <div class="well companies">
+	
+	<h2> Origen del financiamiento de su campaña</h2>
+		
+		{% for qtf in page.qtf_empresas %}
+			{{ qtf | markdownify }}
+		{% endfor %}
+
+	<br />
+	 
+	<strong class="actionQTF">
+	           {% if page.gender == 'f' %}
+	            ¡Pregúntale quién la financia!
+	            {% endif %}
+	            {% if page.gender == 'm' %}
+	            ¡Pregúntale quién lo financia!
+	            {% endif %}
+
+        </strong>
+        <br/>
+         <!-- Twitter -->
+
+        <span class="oneAction">
+            <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.quientefinancia.cl" data-count="none" data-via="{{ site.twitter }}" data-text="Oye @{{page.c_twitter}} a tí {{site.hashtag}} la campaña?" ></a>
+        </span>
+</div>
+{% endif %}
+
+<!---->
+
 {% if page.responde_financiamiento == 'n' %}
 <div class="well companies">
 
