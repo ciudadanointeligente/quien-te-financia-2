@@ -42,6 +42,7 @@ donors:
 - ['Jóvenes Voluntarios' , '1,000,000' ]
 - ['TOTAL INGRESOS' , '70,000,000' ]
  
+star: 'Por transparentar más detalles de la info solicitada'
 
 compromiso:
 
