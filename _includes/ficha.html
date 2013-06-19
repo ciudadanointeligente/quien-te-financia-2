@@ -16,7 +16,17 @@
            Comparte su declaración
         </strong>
         <br />
-        <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.quientefinancia.cl" data-count="none" data-via="{{ site.twitter }}" data-text="Esta es la transparencia de @{{page.c_twitter}}  {{site.hashtag}}" ></a>
+           {% if page.star != null  %}
+           <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.quientefinancia.cl" data-count="none" data-via="{{ site.twitter }}" data-text="¡Bien la transparencia de @{{page.c_twitter}}! {{site.hashtag}}" ></a>
+            
+          {% else %}
+            <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.quientefinancia.cl" data-count="none" data-via="{{ site.twitter }}" data-text="¿Es suficiente la respuesta de @{{page.c_twitter}}? {{site.hashtag}}" ></a>
+          {% endif %}
+      {% endif %}
+
+      {% if page.categories contains 'blacklist' %}
+          Exígele transparencia:
+           <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text=" Mal @{{page.c_twitter}}. Contesta {{site.hashtag}} en " ></a>
       {% endif %}
     </div>
   </div>  

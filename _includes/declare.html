@@ -15,11 +15,18 @@
 
 
 	<br />
-	<strong class="actionQTF"> Comparte su declaración </strong>
+	 
+	<strong class="actionQTF"> ¿Qué tal esta respuesta? </strong>
 	  <span class="oneAction">
+	  	{% if page.star != null  %}
+           <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.quientefinancia.cl" data-count="none" data-via="{{ site.twitter }}" data-text="Esta es la transparencia de @{{page.c_twitter}} {{site.hashtag}}" ></a>
+     
+    {% else %}
 
-            <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.quientefinancia.cl" data-count="none" data-via="{{ site.twitter }}" data-text="Esta es la transparencia de @{{page.c_twitter}} {{site.hashtag}}" ></a>
-        </span>
+           <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.quientefinancia.cl" data-count="none" data-via="{{ site.twitter }}" data-text="¿Es suficiente la respuesta de @{{page.c_twitter}}? {{site.hashtag}}" ></a>
+        
+    {% endif %}
+    </span>
 </div>
 {% endif %}
 
