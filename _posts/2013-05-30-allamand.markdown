@@ -7,7 +7,7 @@ categories:
 - candidatos
 - blacklist
 
-featured-image: ../../images/post/Allamand.png
+featured-image: ../../images/post/allamand.png
 
 gender: m
 

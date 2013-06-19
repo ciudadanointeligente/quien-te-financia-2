@@ -7,7 +7,7 @@ categories:
 - candidatos
 - blacklist
 
-featured-image: ../../images/post/Longueira.png
+featured-image: ../../images/post/longueira.png
 
 gender: m
 
