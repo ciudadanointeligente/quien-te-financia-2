@@ -1,10 +1,6 @@
+#temp
 *.DS_Store
 
-_plugins/category_list.rb
-
-_plugins/donor_list.rb
-
-_site/*
-_site/images/post/Gomez.png
-
-_site/images/post/Gomez.png
+#jekyll
+_plugins
+_site
