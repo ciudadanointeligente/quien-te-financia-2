@@ -205,7 +205,7 @@ a {
 
 /*-------*/
 
-.table-declare{width: 100%}
+.table-declare{width: 100%; color: #000;}
 
 table{border-spacing: 0;}
 

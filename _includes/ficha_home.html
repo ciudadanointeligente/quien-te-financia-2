@@ -3,7 +3,7 @@
      <!--WHITE LIST-->
 
     {% if post.categories contains 'whitelist' %}
-      <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
+      <a class="fancybox fancybox.ajax cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
          {{ post.title }}
         <img class=""src="{{ post.featured-image }}" />
      </a>
@@ -24,7 +24,7 @@
       <!--BLACK LIST-->
 
       {% if post.categories contains 'blacklist' %}
-        <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
+        <a class="fancybox fancybox.ajax cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
            {{ post.title }}     
                <div class="noResponseBand">
                 <img class="" src="{{ post.featured-image }}" />
