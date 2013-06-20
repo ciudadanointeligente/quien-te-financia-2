@@ -6,6 +6,7 @@ body.body-qtf{
 }
 
 
+
 .headTop{
 	background-color: #000;
 	color: #fff;
@@ -44,8 +45,9 @@ body.body-qtf{
 	width: 75%;
 }
 .lbCont{ 
-	max-width: 550px;
+	max-width: 600px;
 	margin: 0 auto;
+	padding: 0 46px;
 }
 .btnBasic{
 	font: normal normal normal 11px/18px 'Helvetica Neue',Arial,sans-serif;
@@ -242,10 +244,14 @@ small.actionQTF, .actionQTF{
 }
 
 .cImage{ float: left;}
-.well.companies {text-align: center; font-weight: lighter;
-line-height: 140%;
+.well.companies {
+	text-align: center; 
+	font-weight: lighter;
+	line-height: 140%;
+	color: #000;
 }
-.well.companies p, .spendItem{font-size: 90%; font-weight: lighter;}
+
+.well.companies p, .spendItem{font-size: 90%; font-weight: lighter; color: #000;}
 
 .donors li{ 
 	text-align: left;
@@ -317,7 +323,7 @@ font-size: 70%;}
 
 .compromiso{background: url(../images/icono-compromiso.png) no-repeat transparent center top;}
 
-  .content.wb h2, .content.wb h1  {
+  .content h2, .fancybox-inner .content.wb h1  {
     color: #333;
 }
 
@@ -336,3 +342,13 @@ right: -66px;
 top: -6px;
 }
 
+
+.onlyInner{display: none;}
+
+.inneNav .onlyInner{display: block;}
+
+.fancybox-inner .qtf-inner {background-image: none;}
+
+.fancybox-inner .headTop{ display: none; }
+
+.qtf-inner {background: url(../images/qtf-bg.png) repeat 0 0 #292b2e;}

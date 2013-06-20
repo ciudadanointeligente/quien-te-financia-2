@@ -3,17 +3,17 @@
      <!--WHITE LIST-->
 
     {% if post.categories contains 'whitelist' %}
-      <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
+      <a class="fancybox fancybox.ajax cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
          {{ post.title }}
         <img class=""src="{{ post.featured-image }}" />
      </a>
 
       
       {% if post.star != null  %}
-           <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.quientefinancia.cl" data-count="none" data-via="{{ site.twitter }}" data-text="¡Bien la transparencia de @{{ post.c_twitter}}! {{site.hashtag}}" ></a>
+           <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="¡Bien la transparencia de @{{ post.c_twitter}}! {{site.hashtag}}" ></a>
             
           {% else %}
-           <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.quientefinancia.cl" data-count="none" data-via="{{ site.twitter }}" data-text="¿Es suficiente la respuesta de @{{ post.c_twitter}}? {{site.hashtag}}" ></a>
+           <a href="http://twitter.com/share" class="twitter-share-button" data-count="none" data-via="{{ site.twitter }}" data-text="¿Es suficiente la respuesta de @{{ post.c_twitter}}? {{site.hashtag}}" ></a>
           {% endif %}
       <br /> Comparte
 
@@ -24,7 +24,7 @@
       <!--BLACK LIST-->
 
       {% if post.categories contains 'blacklist' %}
-        <a class="fancybox fancybox.iframe cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
+        <a class="fancybox fancybox.ajax cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
            {{ post.title }}     
                <div class="noResponseBand">
                 <img class="" src="{{ post.featured-image }}" />
