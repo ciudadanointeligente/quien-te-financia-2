@@ -30,7 +30,7 @@ fecha_rendicion: 10/06/2013
  
 responde_financiamiento: y
 
-qtf_empresas: Esta candidatura no ha solicitado aportes a empresas
+qtf_empresas: "Hasta mediados de junio el ingrso total de la campaña eran 215 millones. De estos, entre 178 y 180 fueron proporcionados por el Partido Socialista. El resto se consiguió a través de cenas de recaudación y remates de distintas obras de artistas. 5 millones del total han venido de recaudación ciudadana que se hicieron en la campaña pasada". 
 
 
 compromiso: Incrementar la transparencia de la política y en particular de las campañas, financiamiento y conflictos de interés.
