@@ -74,6 +74,16 @@ Creemos que los ciudadanos deben votar informados no solo respecto a las propues
 
 Fuente: <a href="http://www.andresvelasco.cl/propuestas/reformas-politicas-y-constitucionales/" target='_blank'>Programa de Gobierno Velasco 2014</a><!-- [Programa de Gobierno Velasco 2014][prog] --> 
 
+##Detalle de Uso de Dinero Recolectado:##
+
+<table class="table table-striped table-bordered table-declare">
+    <tr><td>Monumentales</td><td>Plaza Italia, Santiago</td></tr>
+    <tr><td>Monumentales</td><td>San Francisco de Asís llegando a Costanera Norte, Santiago</td></tr>
+    <tr><td>Radio</td><td>Duna dthgfgnb</td></tr>
+    <tr><td>Dirario</td><td>pagina completa la tercera</td></tr>
+    <tr><td>Monumentales</td><td>San Francisco de Asís llegando a Costanera Norte, Santiago</td></tr>
+   
+</table>
 
 
 [prog]:http://www.andresvelasco.cl/propuestas/reformas-politicas-y-constitucionales/
