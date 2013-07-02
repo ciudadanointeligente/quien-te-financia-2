@@ -1,19 +1,19 @@
 ---
 layout: candidato
 
-title: Pablo Longueira
+title: Tomás Jocelyn-Holt
 
 categories: 
 - candidatos
 - soon
 
-featured-image: ../../images/post/longueira.png
+featured-image: ../../images/post/holt.png
 
 gender: m
 
-c_twitter: Pablo_Longueira
+c_twitter: tjholt
 
-public-email: mail@mail.cl
+public-email: tomasresponde@jocelyn-holt.cl
 
 responde_gasto: n
 
@@ -37,5 +37,5 @@ compromiso:
 ---
 ##En su programa: ##
 
-El candidato no tiene programa
+
 
