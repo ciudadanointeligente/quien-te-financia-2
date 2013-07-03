@@ -5,7 +5,7 @@ title: Michelle Bachelet
 
 categories: 
 - candidatos
-- whitelist
+- soon
 
 featured-image: ../../images/post/bachelet.png
 

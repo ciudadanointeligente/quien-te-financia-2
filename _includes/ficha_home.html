@@ -42,6 +42,18 @@
           </div> 
         
       {% endif %}   
+
+      <!--POST PRIMARIAS-->
+       {% if post.categories contains 'soon' %}
+          <div class="cName">
+           {{ post.title }}     
+               <div class="soonBand">
+                <img class="" src="{{ post.featured-image }}" />
+              </div>
+           </div>
+           <br/>
+
+      {% endif %}   
 </div>
 
    

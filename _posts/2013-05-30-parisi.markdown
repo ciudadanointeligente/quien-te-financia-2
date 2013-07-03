@@ -1,19 +1,19 @@
 ---
 layout: candidato
 
-title: Pablo Longueira
+title: Franco Parisi
 
 categories: 
 - candidatos
 - soon
 
-featured-image: ../../images/post/longueira.png
+featured-image: ../../images/post/parisi.png
 
 gender: m
 
-c_twitter: Pablo_Longueira
+c_twitter: fr_parisi
 
-public-email: mail@mail.cl
+public-email: dvillegas@parisi2014.cl
 
 responde_gasto: n
 
@@ -37,5 +37,5 @@ compromiso:
 ---
 ##En su programa: ##
 
-El candidato no tiene programa
+
 
