@@ -38,7 +38,7 @@ body.body-qtf{
 	display: block;
 	width: 270px;
 }
-.mainNav ul li{ float: left;}
+.mainNav ul li{ float: left; margin-right: 10px;}
 .centerCont{ 
 	max-width: 800px;
 	margin: 0 auto;

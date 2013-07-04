@@ -5,7 +5,7 @@ title: Andrés Allamand
 
 categories: 
 - candidatos
-- blacklist
+- p_blacklist
 
 featured-image: ../../images/post/allamand.png
 

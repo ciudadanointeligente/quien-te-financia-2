@@ -22,33 +22,22 @@ title: "Quien te financia"
 
   <div class="manAbove"> </div>
   <div class="theBlackBox">
-    <h2 class="titleLine"> ¿Quién financia las presidenciales 2013?</h2>
-    <p>
-      Muchos millones se invirtieron en las primarias ¿Quiénes seguirán finanaciando las campañas?
-    </p>
+    <h2 class="titleLine"> Muchos millones se invirtieron en las primarias. Revisa las declaraciones de los candidatos que participaron: </h2>
   <ul class="candidatesList">
    
       {% for post in site.posts %}
-        {% if post.categories contains 'blacklist' %}
+        {% if post.categories contains 'p_blacklist' %}
             <li>
-              {% include ficha_home.html %}
+              {% include p_ficha_home.html %}
             </li> 
            
         {% endif %}
       {% endfor %}
     
     {% for post in site.posts %}
-      {% if post.categories contains 'whitelist' %}
+      {% if post.categories contains 'p_whitelist' %}
           <li>
-           {% include ficha_home.html %}
-          </li>
-      {% endif %}
-    {% endfor %}
-
-    {% for post in site.posts %}
-      {% if post.categories contains 'soon' %}
-          <li>
-           {% include ficha_home.html %}
+           {% include p_ficha_home.html %}
           </li>
       {% endif %}
     {% endfor %}

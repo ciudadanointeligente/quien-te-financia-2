@@ -4,7 +4,7 @@ layout: candidato
 title: Andrés Velasco
 categories: 
 - candidatos
-- whitelist
+- p_whitelist
 
 featured-image: ../../images/post/velasco-premiado.jpg
 
