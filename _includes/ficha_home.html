@@ -1,3 +1,8 @@
+<!--Este archivo despliega la información básica de cada candidato en la lista de candidatos del home
+    -Si el candidato ha respondido: invita a comaprtir por twitter
+    -Si el candidato no ha respondido: invita a exigir transparencia por twitter. Agrega una bada de "No ha respondido" sobre la imagen del candidato.
+-->
+
 <div class="ficha">
 
      <!--WHITE LIST-->
@@ -5,7 +10,7 @@
     {% if post.categories contains 'whitelist' %}
       <a class="fancybox fancybox.ajax cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
          {{ post.title }}
-        <img class=""src="{{ post.featured-image }}" />
+        <img class="" width="115" height="140" src="{{ post.featured-image }}" />
      </a>
 
       
@@ -27,7 +32,7 @@
         <a class="fancybox fancybox.ajax cName" data-fancybox-group="candidatos-b" href="{{ BASE_PATH }}{{ post.url }}">
            {{ post.title }}     
                <div class="noResponseBand">
-                <img class="" src="{{ post.featured-image }}" />
+                <img class="" width="115" height="140" src="{{ post.featured-image }}" />
               </div>
         </a>
      
@@ -42,16 +47,6 @@
           </div> 
         
       {% endif %}   
-
-      <!--POST PRIMARIAS-->
-       {% if post.categories contains 'soon' %}
-          <div class="cName">
-           {{ post.title }}     
-               <div class="soonBand">
-                <img class="" src="{{ post.featured-image }}" />
-              </div>
-           </div>
-           <br/>
 
       {% endif %}   
 </div>

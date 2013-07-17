@@ -5,7 +5,7 @@ title: Andrés Allamand
 
 categories: 
 - candidatos
-- p_blacklist
+- blacklist
 
 featured-image: ../../images/post/allamand.png
 
@@ -39,8 +39,6 @@ compromiso:
 
 ####No hace referencia al financiamiento de la política, la transparencia ni la regulación del lobby ####
 
-Fuente: <a href="http://www.proyectoallamand.cl/wp-content/uploads/2013/06/4_ejes_16_propuestas.pdf" target='_blank'>Programa de Gobierno Allamand 2014</a><!-- [Programa de Gobierno Allamand 2014][prog] --> 
+Fuente: <a href="http://www.proyectoallamand.cl/wp-content/uploads/2013/06/4_ejes_16_propuestas.pdf" target='_blank'>Programa de Gobierno Allamand 2014</a>
 
-
-
-[prog]:http://www.proyectoallamand.cl/wp-content/uploads/2013/06/4_ejes_16_propuestas.pdf
+<!--Puede ingresarse información adicional como HTML->

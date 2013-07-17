@@ -4,8 +4,7 @@ layout: candidato
 title: Michelle Bachelet
 
 categories: 
-- candidatos
-- soon
+- whitelist
 
 featured-image: ../../images/post/bachelet.png
 
@@ -39,3 +38,4 @@ compromiso: Incrementar la transparencia de la política y en particular de las 
 
 La candidata no tiene programa
 
+<!--Puede ingresarse información adicional como HTML->

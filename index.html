@@ -22,10 +22,7 @@ title: "Quien te financia"
 
   <div class="manAbove"> </div>
   <div class="theBlackBox">
-    <h2 class="titleLine"> ¿Quién financia las presidenciales 2013?</h2>
-    <p>
-      Muchos millones se invirtieron en las primarias ¿Quiénes seguirán finanaciando las campañas?
-    </p>
+    <h2 class="titleLine"> Hasta que no sepamos quién los financia nos gobierna un poder invisible </h2>
   <ul class="candidatesList">
    
       {% for post in site.posts %}
@@ -44,20 +41,18 @@ title: "Quien te financia"
           </li>
       {% endif %}
     {% endfor %}
+  </ul>
 
-    {% for post in site.posts %}
-      {% if post.categories contains 'soon' %}
-          <li>
-           {% include ficha_home.html %}
-          </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-  </ul>
-  <h3>Encuentra más información sobre los candidatos en <a class="link-vota" href="http://votainteligente.cl/">Votainteligente.cl</a></h3>
+
+    <!-- link promocional   *** opcional *** -->
+      <h3>Encuentra más información sobre los candidatos en <a class="link-vota" href="http://votainteligente.cl/">Votainteligente.cl</a></h3>
+    <!--/link promocional -->
+
 </div>
 </section>
 
-<section class="content theWhiteBox">
-<a href="http://votainteligente.cl" target="_blank"><img src="images/banner-vota.jpg" /></a>
-</section>
+<!-- BANNER PROMOCIONAL   *** opcional *** -->
+  <section class="content theWhiteBox">
+    <a href="http://votainteligente.cl" target="_blank"><img src="images/banner-vota.jpg" /></a>
+  </section>
+<!--/ BANNER PROMOCIONAL -->

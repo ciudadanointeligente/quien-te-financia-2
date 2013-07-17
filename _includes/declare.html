@@ -1,11 +1,19 @@
+<!--Incluye las respuestas declaradas por cada candidato en su ficha-->
+
+
+<!--SI el candidato RESPONDE-->
+
 {% if page.responde_financiamiento == 'y' %}
  <div class="well companies">
 	
+	<!--respuesta sobre quién lo financia-->
 	<h2> Origen del financiamiento de su campaña</h2>
 		
 		{% for qtf in page.qtf_empresas %}
 			{{ qtf | markdownify }}
 		{% endfor %}
+
+	<!--donantes, si los declara-->
 
 		<ul class="donors" >
 			{% for donor in page.donors %}
@@ -16,6 +24,8 @@
 
 	<br />
 	 
+	 <!-- Acción en twitter -->
+
 	<strong class="actionQTF"> ¿Qué tal esta respuesta? </strong>
 	  <span class="oneAction">
 	  	{% if page.star != null  %}
@@ -30,7 +40,7 @@
 </div>
 {% endif %}
 
-<!--responde sin responder-->
+<!--EN caso de que el candidato responda pero SIN ENTREGAR DATOS, es decir que diga que se atiene a la ley y por lo tanto no responderá:-->
 
 {% if page.responde_financiamiento == 'm' %}
 
@@ -54,6 +64,7 @@
 
         </strong>
         <br/>
+
          <!-- Twitter -->
 
         <span class="oneAction">
@@ -62,7 +73,7 @@
 </div>
 {% endif %}
 
-<!---->
+<!--SI el candidato NO RESPONDE-->
 
 {% if page.responde_financiamiento == 'n' %}
 <div class="well companies">
@@ -86,8 +97,7 @@
 </div>
 {% endif %}
 
-
-
+<!--DECLARACIÓN de gastos de campaña-->
 
 <div class="declara_gasto">
 
@@ -119,9 +129,8 @@
 
 	</table>
 
-
-
 {% endif %}
+
 {% if page.responde_gasto == 'n' %}
 
 <div class="well">
@@ -130,6 +139,7 @@
 {% endif %}
 </div>
 
+<!--COMPROMISOS DEL CANDIDATO-->
 
 {% if page.compromiso != null  %}
 <div class="compromiso">

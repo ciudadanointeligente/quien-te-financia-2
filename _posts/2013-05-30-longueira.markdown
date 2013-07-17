@@ -4,8 +4,7 @@ layout: candidato
 title: Pablo Longueira
 
 categories: 
-- candidatos
-- soon
+- blacklist
 
 featured-image: ../../images/post/longueira.png
 
@@ -39,3 +38,4 @@ compromiso:
 
 El candidato no tiene programa
 
+<!--Puede ingresarse información adicional como HTML->
