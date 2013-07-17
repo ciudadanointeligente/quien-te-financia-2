@@ -1,56 +1,54 @@
-# Left
+#QUIEN TE FINANCIA
 
-Left is a clean, whitespace-happy layout for [Jekyll](https://github.com/mojombo/jekyll).
+Este sitio fue desarrollado usando [GitHub Pages](http://pages.github.com) y [Jekyll](https://github.com/mojombo/jekyll).
+Basado en eltheme [Left](http://cl.ly/image/3S2r1p2C0E2B/content) de Zach Holman. 
 
-This is designed to be an easy layout to modify for your own blog. It was
-extracted from [zachholman.com](http://zachholman.com/), which means it was
-battle-hardened from years of posting serious blog posts about emoji and swear
-words.
+La documentación está incompleta, pero siéntanse libres de contactarnos en info@ciudadanointeligente.org o en 
 
-![Left](http://cl.ly/image/3S2r1p2C0E2B/content)
 
-## Installation
+## Instalación
 
 - Install Jekyll: `gem install jekyll`
-- [Fork this repository](https://github.com/holman/left/fork)
-- Clone it: `git clone https://github.com/YOUR-USER/left`
+- [Forkear este repo](https://github.com/ciudadanointeligente/quien-te-financia-2/tree/basic-qtf)
+- Clonarlo: `git clone https://github.com/YOUR-USER/quien-te-financia-2`
 - Run the jekyll server: `jekyll --server`
 
-You should have a server up and running locally at <http://localhost:4000>.
 
-## Customization
+Usar la versión de la rama "basic-qtf".
 
-Next you'll want to change a few things. Most of them can be changed directly in
-[_config.yml](https://github.com/holman/left/blob/master/_config.yml). That's
-where we'll pull your name, Twitter username, and things like that.
 
-There's a few other places that you'll want to change, too:
+## Personalizarlo
 
-- [CNAME](https://github.com/holman/left/blob/master/CNAME): If you're using
-  this on GitHub Pages with a custom domain name, you'll want to change this
-  to be the domain you're going to use. All that should be in here is a
-  domain name on the first line and nothing else (like: `example.com`).
-- [favicon.ico](https://github.com/holman/left/blob/master/favicon.ico): This
-  is a smaller version of my gravatar for use as the icon in your browser's
-  address bar. You should change it to whatever you'd like.
-- [apple-touch-icon.png](https://github.com/holman/left/blob/master/apple-touch-icon.png):
-  Again, this is my gravatar, and it shows up in iOS and various other apps
-  that use this file as an "icon" for your site.
+Lo siguiente es cambiar la información base del archivo: _config.yml
+
+De ahí sacaremos el nombre de la organización, el nombre de usuario de Twitter, hashtag de la campaña para incluir en los twitts, etc.
+
+
+Algunas otras cosas que cambiar:
+
+- archivo CNAME: 
+	Si vas a usar Github pages debes incluir acá el dominio que vas a usar.
+	En este archivo sólo debe ir una url en la primera linea y nada más  (así: `example.com`).
+
+- favicon.ico
+
+- apple-touch-icon.png
+
+
+
+##Agregar contenido
+
+###Crear un candidato:###
+Crear un post y asignarle un **layout: candidato** . 
+No olvidar asignarle una categoría para que aparezca en el home: 'whitelist' si ha respondido, 'blacklist' si no ha respondido. 
+
+###Completar la información del candidato ###
+El post '2013-00-00-candidato_muestra.markdown' incluye comentarios explicando cada uno de los campos a llenar.
+
+
 
 ## Deployment
 
-You should deploy with [GitHub Pages](http://pages.github.com)- it's just
-easier.
+Recomendamos deployar con[GitHub Pages](http://pages.github.com)- es lo más fácil.
 
-All you should have to do is rename your repository on GitHub to be
-`username.github.com`. Since everything is on the `gh-pages` branch, you
-should be able to see your new site at <http://username.github.com>.
 
-## Licensing
-
-This is [MIT](https://github.com/holman/left/blob/master/LICENSE) with no
-added caveats, so feel free to use this on your site without linking back to
-me or using a disclaimer or anything silly like that.
-
-If you'd like give me credit somewhere on your blog or tweet a shout out to
-[@holman](https://twitter.com/holman), well hey, I'll take it.
