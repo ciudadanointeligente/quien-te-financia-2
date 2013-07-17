@@ -3,8 +3,7 @@
 Este sitio fue desarrollado usando [GitHub Pages](http://pages.github.com) y [Jekyll](https://github.com/mojombo/jekyll).
 Basado en eltheme [Left](http://cl.ly/image/3S2r1p2C0E2B/content) de Zach Holman. 
 
-La documentación está incompleta, pero siéntanse libres de contactarnos en info@ciudadanointeligente.org o en 
-
+La documentación está incompleta, pero siéntanse libres de contactarnos en info@ciudadanointeligente.org 
 
 ## Instalación
 
